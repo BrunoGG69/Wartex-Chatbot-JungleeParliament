@@ -5,7 +5,8 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': 'https://wartex-chatbot-jungleeparliament.onrender.com'
+      // Proxy to your local backend during development
+      '/api': 'http://localhost:5000'
     }
   }
 })
