@@ -9,7 +9,7 @@ class ChatBot:
     def __init__(self, api_key):
         self.genai = genai
         self.genai.configure(api_key=api_key)
-        self.model = self.genai.GenerativeModel(model_name="tunedModels/jungleeparliament-diaqdo66oviu")
+        self.model = self.genai.GenerativeModel(model_name="tunedModels/jungleeparliament-8blqszw8n5vh")
         self.conversation = None
         self._conversation_history = []
         
